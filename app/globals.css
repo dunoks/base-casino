@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --background: #020408;
+  --foreground: #e2e8f0;
+  --base-blue: #0052ff;
+  --sidebar: #05070a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.gold-text {
+  background: linear-gradient(to right, #0052ff, #4d8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.casino-card {
+  background: #05070a;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
